@@ -96,11 +96,15 @@ int main()
 					printf("Introduceti va rog un numar natural: ");
 					scanf("%d", &nr_natural_N);
 					printf("\n");
+					if(nr_natural_N > 0)
+					{
+						printf("\n");
+						printf("Felicitari, acuma ai introdus un numar natural\n");
+						printf("\n");
+					}
 				}
 
-				printf("\n");
-				printf("Felicitari, acuma ati introdus un numar natural\n");
-				printf("\n");
+				
 
 				printf("sqrt(N) = %.2f\n", sqrt(nr_natural_N));
 				printf("\n");
